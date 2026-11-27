@@ -1,0 +1,28 @@
+======================================================================
+           RELATÓRIO DE ANÁLISE DE CÓDIGO-FONTE (PYTHON)
+======================================================================
+Arquivo analisado : exemplos/exemplo_basico.py
+Data da análise   : 27/11/2026 13:53:13
+Limite por linha  : 79 caracteres
+----------------------------------------------------------------------
+1. ESTATÍSTICAS DE LINHAS
+   - Total de linhas               : 29
+   - Linhas de código              : 18 (62.1%)
+   - Linhas vazias                 : 8 (27.6%)
+   - Linhas de comentários (#)     : 3 (10.3%)
+   - Comentários inline (# no fim) : 0
+----------------------------------------------------------------------
+2. ESTRUTURAS DE CONTROLE (ignorando strings e comentários)
+   - Condicionais (if)             : 2
+   - Ramificações adicionais (elif): 1
+   - Repetições (total)            : 1
+       * Laços 'for'               : 1
+       * Laços 'while'             : 0
+----------------------------------------------------------------------
+3. DEFINIÇÕES DE FUNÇÕES (total: 2)
+   - Linha    5: def calcular_media()
+   - Linha   16: def classificar_aluno()
+----------------------------------------------------------------------
+4. LINHAS ACIMA DE 79 CARACTERES (total: 0)
+   - Nenhuma linha ultrapassou o limite de 79 caracteres.
+======================================================================

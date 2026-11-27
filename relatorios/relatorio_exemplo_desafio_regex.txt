@@ -1,0 +1,28 @@
+======================================================================
+           RELATÓRIO DE ANÁLISE DE CÓDIGO-FONTE (PYTHON)
+======================================================================
+Arquivo analisado : exemplos/exemplo_desafio_regex.py
+Data da análise   : 27/11/2026 13:53:14
+Limite por linha  : 79 caracteres
+----------------------------------------------------------------------
+1. ESTATÍSTICAS DE LINHAS
+   - Total de linhas               : 50
+   - Linhas de código              : 40 (80.0%)
+   - Linhas vazias                 : 6 (12.0%)
+   - Linhas de comentários (#)     : 4 (8.0%)
+   - Comentários inline (# no fim) : 1
+----------------------------------------------------------------------
+2. ESTRUTURAS DE CONTROLE (ignorando strings e comentários)
+   - Condicionais (if)             : 1
+   - Ramificações adicionais (elif): 0
+   - Repetições (total)            : 2
+       * Laços 'for'               : 1
+       * Laços 'while'             : 1
+----------------------------------------------------------------------
+3. DEFINIÇÕES DE FUNÇÕES (total: 1)
+   - Linha    6: def funcao_real()
+----------------------------------------------------------------------
+4. LINHAS ACIMA DE 79 CARACTERES (total: 2)
+   - Linha    3 (85 chars): # Falso positivo em comentário: if x > 0: for i in range(...
+   - Linha   18 (80 chars): texto_simples = 'if True: for k in v: while 1: # sustenid...
+======================================================================

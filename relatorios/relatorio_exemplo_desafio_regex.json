@@ -1,0 +1,39 @@
+{
+  "data_analise": "27/11/2026 13:53:14",
+  "arquivo": "exemplos/exemplo_desafio_regex.py",
+  "limite_caracteres": 79,
+  "total_linhas": 50,
+  "linhas_vazias": 6,
+  "linhas_comentarios": 4,
+  "comentarios_inline": 1,
+  "linhas_codigo": 40,
+  "condicionais": {
+    "if": 1,
+    "elif": 0
+  },
+  "repeticoes": {
+    "for": 1,
+    "while": 1,
+    "total": 2
+  },
+  "total_funcoes": 1,
+  "funcoes": [
+    {
+      "nome": "funcao_real",
+      "linha": 6
+    }
+  ],
+  "total_linhas_longas": 2,
+  "linhas_longas": [
+    {
+      "linha": 3,
+      "tamanho": 85,
+      "trecho": "# Falso positivo em comentário: if x > 0: for i in range(..."
+    },
+    {
+      "linha": 18,
+      "tamanho": 80,
+      "trecho": "texto_simples = 'if True: for k in v: while 1: # sustenid..."
+    }
+  ]
+}
